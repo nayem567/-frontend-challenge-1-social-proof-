@@ -1,0 +1,151 @@
+
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+main{
+    max-width: 1440px;
+    background-color: #fff;
+    padding: 5rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    background-image: url(img/bg-pattern-top-desktop.svg), url(img/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+}
+
+.head-section{
+    padding: 5rem;
+   overflow: hidden;
+}
+
+.head-section .left-head-second-container{
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+
+.head-section .left-head-title h1{
+    font-weight: 700;
+    font-size:4rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.head-section .left-head-text p{
+    color:  hsl(303, 10%, 53%);
+}
+
+.head-section .right-head-main-container{
+    width: 50%;
+    float: right;
+    padding: 2%;
+    overflow: hidden;
+    margin-top: 3rem;
+}
+
+.right-head-box{
+    background-color:  hsl(300, 24%, 96%);
+    padding: .8rem;
+    overflow: hidden;
+    margin: 2% 0;
+    border-radius: 1rem;
+}
+
+.right-head-box img{
+    float: left;
+    padding-top: 3%;
+    padding-left: 5px ;
+}
+
+.right-head-box p{
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.right-head-box:nth-child(2){
+    margin-left: 10%;
+}
+
+.right-head-box:nth-child(3){
+    margin-left: 20%;
+}
+
+/* ======================= */
+/* Testimonial Section */
+/* ======================= */
+
+.testimonial-section{
+    padding: 5rem;
+   overflow: hidden;
+}
+
+
+.testimonial-section .column{
+    width: 30%;
+    border-radius: 1rem;
+    padding: 2%;
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.testimonial-section .column img{
+    border-radius: 50%;
+    float: left;
+}
+
+.testimonial-section .column h4{
+    display: inline-block;
+    margin: 0;
+    margin-top: 4%;
+    margin-left: 2rem;
+}
+.testimonial-section .column .client-position{
+    display: inline-block;
+    margin-left: 2rem;
+    color:  hsl(333, 80%, 67%);
+}
+
+.testimonial-section .little-description{
+    margin-top: 3rem;
+}
+
+.testimonial-container{
+   
+}
+
+.testimonial-container .column{
+    float: left;
+    margin-left: 3%;
+}
+
+.testimonial-section .column:nth-child(2){
+    margin-top: 2%;
+}
+
+.testimonial-section .column:nth-child(3){
+    margin-top: 4%;
+}
+
+/* ======================= */
+/* Footer */
+/* ======================= */
+
+.attribution{
+    font-size: 15px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.attribution a{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.attribution strong{
+    font-size: 2rem;
+    color: #AF67E9;
+}
